@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OriginSix</title>
+    <link rel="stylesheet" href="assets/icones/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,7 +18,17 @@
     <header id="header">
       <nav class="container">
         <a class="logo" href="#">beauty<span>salon.</span></a>
-        <div class="menu">...</div>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contatos</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
       </nav>
     </header>
     <main>
@@ -30,7 +41,7 @@
             />
           </div>
           <div class="text">
-            <h1>Saúde natural para os seus cabelos</h1>
+            <h2 class="title">Saúde natural para os seus cabelos</h2>
             <p>
               Um salão exclusivo em São Paulo, especializado em tratamentos
               naturais.
@@ -40,9 +51,45 @@
         </div>
       </section>
       <div class="divider-1"></div>
-      <section class="section">
-        <div class="container">outra seção</div>
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://media.istockphoto.com/photos/in-a-hair-salon-picture-id1306817644?b=1&k=20&m=1306817644&s=170667a&w=0&h=_WskuZH3vpLcsJCXtCcmc-EXfALgcbSeFb2BouLqVHs="
+              alt="Mulheres no salão de beleza"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+              pariatur corrupti laborum repellat sed cumque commodi tempore
+              expedita. Voluptatem provident a atque, voluptas ullam sapiente
+              quisquam adipisci quia non sed!
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              dicta laborum quidem quasi facere incidunt repellat esse
+              dignissimos quis accusantium consectetur, quam rem eos, accusamus
+              quos doloribus natus dolor voluptate!
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              iusto aut nisi dolorem ea corrupti labore sequi eos possimus quas
+              et maiores inventore illo perferendis, nesciunt incidunt?
+              Voluptatem, tempore soluta.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="divider-2"></div>
+
+      <section class="section" id="services">
+        <div class="container grid"></div>
       </section>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
